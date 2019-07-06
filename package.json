@@ -6,7 +6,8 @@
   "scripts": {
     "test": "jest --verbose --runInBand",
     "test:watch": "npm run test -- --watch",
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "start:watch": "nodemon server.js"
   },
   "keywords": [],
   "author": "",
